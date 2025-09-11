@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { ChevronLeft, Search, Download, User, Bell, Settings, BarChart3, Calculator, FileText, PieChart, Users, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import ThemeSelector from "./ThemeSelector";
 
 interface LayoutProps {
   children: ReactNode;
@@ -67,6 +68,7 @@ const Layout = ({ children, title, breadcrumbs, showBackButton, onBackClick }: L
               </div>
             </div>
             <div className="flex items-center gap-4">
+              <ThemeSelector />
               <Bell className="w-5 h-5 text-white/70 cursor-pointer" />
               <Settings className="w-5 h-5 text-white/70 cursor-pointer" />
               <div className="flex items-center gap-2">
