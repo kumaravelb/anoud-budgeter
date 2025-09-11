@@ -31,14 +31,8 @@ const Layout = ({ children, title, breadcrumbs, showBackButton, onBackClick }: L
       <div className="w-64 bg-white border-r border-gray-200">
         {/* Logo */}
         <div className="p-6 border-b border-gray-200">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-red-600 rounded flex items-center justify-center">
-              <span className="text-white font-bold text-sm">A</span>
-            </div>
-            <div>
-              <div className="font-bold text-gray-900">ANOUD<span className="text-red-600">+</span></div>
-              <div className="text-xs text-gray-500">Finance</div>
-            </div>
+          <div className="flex items-center gap-3">
+            <img src="/lovable-uploads/bc680798-dbaa-4652-9c91-b8bcb6882682.png" alt="ANOUD Technologies" className="h-12 w-auto" />
           </div>
           <div className="mt-2 text-sm text-gray-600">OQIC - Muscat</div>
         </div>
